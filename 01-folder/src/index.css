@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.parent{
+  display: flex;
+  gap:20px;
+  flex-wrap: wrap;/*if screen size is small then it will wrap the cards to next line */
+
+}
+.cards img{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.cards p{
+  margin: 10px 0;
+}
+
+.cards{
+  width:300px;
+  
+  padding:20px;
+  border: 2px solid rgb(255, 252, 252);
+  border-radius:20px;
+  text-align: center;
+  background-color: #222;
+  
+}
+button{
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgb(172, 246, 26);
+  border: none;
+  color: black;
+
+}
