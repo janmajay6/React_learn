@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useState } from "react";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
   };
 
   const handleDelete= (idx)=>{
-    console.log(idx);
+    // console.log(idx);
     
     const newUpdatedNotes= notes.filter((note,index)=>index!==idx); // we can also use splice method here to remove item from array e.g // const newUpdatedNotes= [...notes]; newUpdatedNotes.splice(idx,1);
     setNotes(newUpdatedNotes);
